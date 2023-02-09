@@ -31,5 +31,6 @@ Discord Bot for Project Manager Discord server.
 ## 1.0.1:
 - Add Ping command
 - Add screenshot in the README
+- Add a message when a button is pressed
 
 **ENJOY!**
