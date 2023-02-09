@@ -16,10 +16,20 @@ Discord Bot for Project Manager Discord server.
 
  - Execute the bot with: `node .`  
 
+## SCREENSHOTS:
+
+![channel](http://eliott-b.tech/imageGit/bot-project-manager/channel.png)  
+
+![status](http://eliott-b.tech/imageGit/bot-project-manager/status.png)
+
 ## CHANGELOG:
 
 ### 1.0.0:
 - Creation of the git  
 - Initialization of the first version of the bot  
+
+## 1.0.1:
+- Add Ping command
+- Add screenshot in the README
 
 **ENJOY!**
