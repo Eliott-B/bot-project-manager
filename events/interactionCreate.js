@@ -32,19 +32,19 @@ module.exports = {
 
                 if (interaction.customId == 'processing'){
                     await interaction.reply({ content: ">>> Good luck!", ephemeral: true });
-                    await interaction.channel.setName(channelName.replace(channelName[0],'🟠'));
                     await interaction.channel.send("🟠 The task is in progress!");
+                    await interaction.channel.setName(channelName.replace(channelName[0],'🟠'));
                 };
 
                 if (interaction.customId == 'finish'){
                     await interaction.reply({ content: ">>> Good job!", ephemeral: true });
-                    await interaction.channel.setName(channelName.replace(channelName[0],'🟢'));
                     await interaction.channel.send("🟢 The task is finished!");
+                    await interaction.channel.setName(channelName.replace(channelName[0],'🟢'));
                 };
 
             } catch (error) {
                 console.error(error);
-                await interaction.reply({ content: 'There was an error while executing this command.', ephemeral: true });
+                await interaction.reply({ content: 'There was an error while executing this button.', ephemeral: true });
             }
         }
         
